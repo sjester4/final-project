@@ -2,13 +2,15 @@
     style.css
     use this file for your custom styles
 ========================================== */
-
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
 /* use a box model that makes sense */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 
 /* set the default color, font-size, and line height */
 html {
@@ -24,20 +26,35 @@ object {
 }
 
 /* type hierarchy- change for your project */
+.header{
+    border: 2px solid green;
+    text-align: center;
+    background-color: lightgrey;
+}
 h1 {
-  font-size: 3em; /* 48px */
+  font-size: 2em; 
+  font-family: "Pacifico"; 
+  text-align: center;
 }
 
 h2 {
-  font-size: 2.25em /* 36px */
+  font-size: 1.75em; 
+  font-family: "Didact Gothic";
+  text-align: center;
 }
 
 h3 {
-  font-size: 1.75em /* 28px */
+  font-size: 1.75em; 
 }
 
 h4 {
-  font-size: 1.125em /*18px */
+  font-size: 1.125em; 
+}
+body{
+    background-image: url(../img/congruent_pentagon/congruent_pentagon.png);
+}
+.photo1{
+    float: right;
 }
 
 /* =======================================
