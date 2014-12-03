@@ -52,11 +52,33 @@ h4 {
 }
 body{
     background-image: url(../img/congruent_pentagon/congruent_pentagon.png);
+    text-align: center;
 }
 .photo1{
+    float: right bottom;
+}
+ul{
+    list-style: none;
+}
+.starting{
+    font-size: 1.5em;
+    padding: 10px 5px 5px 5px;
+}
+.copyright{
     float: right;
 }
-
+.ahw{
+    padding: 10px 10px 10px 10px;
+}
+.gw{
+    padding: 10px 10px 10px 10px;
+}
+.si{
+    padding: 10px 10px 10px 10px;
+}
+.hdr{
+    padding: 10px 10px 10px 10px;
+}
 /* =======================================
     author styles
     place your custom styles below here
